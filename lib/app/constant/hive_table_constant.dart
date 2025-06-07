@@ -5,7 +5,6 @@ class HiveTableConstant {
   HiveTableConstant._(); // private constructor to prevent accidental instantiation.
 
   static const int studentTableId = 0; // used by Hive’s TypeAdapter to register that specific data type.
-  // 
   static const String studentBox = 'studentBox';
 
   static const int batchTableId = 1;

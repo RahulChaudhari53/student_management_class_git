@@ -9,6 +9,7 @@ class CourseLocalRepository implements ICourseRepository {
 
   CourseLocalRepository({required CourseLocalDataSource courseLocalDataSource})
     : _courseLocalDataSource = courseLocalDataSource;
+    
   @override
   Future<Either<Failure, void>> createCourse(CourseEntity course) async {
     try {

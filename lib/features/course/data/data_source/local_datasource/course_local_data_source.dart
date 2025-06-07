@@ -5,8 +5,8 @@ import 'package:student_management/features/course/domain/entity/course_entity.d
 
 class CourseLocalDataSource implements ICourseDataSource {
   final HiveService hiveService;
-
   const CourseLocalDataSource(this.hiveService);
+
   @override
   Future<void> createCourse(CourseEntity course) async {
     try {
